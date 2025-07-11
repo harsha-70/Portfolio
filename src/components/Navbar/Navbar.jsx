@@ -24,7 +24,7 @@ const Navbar = () => {
       animate={{ y: 0 }}
       transition={{ duration: 0.5 }}
     >
-      <div className='max-w-6xl mx-auto px- flex justify-between items-center'>
+      <div className='max-w-6xl mx-auto px-4 flex justify-between items-center'>
         {/* logo */}
         <motion.div
             className='text-white text-3xl'
