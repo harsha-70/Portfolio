@@ -4,9 +4,9 @@ import { personalData } from '../../utils/data/personaldata';
 
 const About = () => {
   return (
-    <section id="about" className="max-w-9xl mx-auto px-2 relative flex flex-col items-center justify-between py-4 sm:px-4 lg:py-12 my-8 lg:my-16 relative">
+    <section id="about" className="max-w-7xl mx-auto px-2 relative flex flex-col items-center justify-between py-4 sm:px-4 lg:py-12 my-8 lg:my-16 ">
       
-      <div className="w-full flex flex-wrap items-center justify-center my-8 mb-20 px-2">
+      <div className="max-w-xl w-full flex flex-wrap items-center justify-center my-8 mb-20 px-2">
   {/* Left line */}
   <div className="flex-grow h-[2px] bg-pink-500"></div>
 
@@ -57,25 +57,6 @@ const About = () => {
         </div>
         </div>
       
-{/* 
-      <div className="flex flex-wrap items-center justify-center mt-10">
-        
-        <div className="w-full lg:w-1/2 flex justify-center p-4">
-          <img
-            className="rounded-2xl shadow-lg shadow-pink-500/10 hover:scale-105 transition-transform duration-300"
-            src={MyPic}
-            alt="About"
-            width="350"
-            height="350"
-          />
-        </div>
-
-        <div className="w-full lg:w-1/2 px-6 lg:px-12">
-          <p className="text-neutral-300 text-lg leading-relaxed text-justify max-w-3xl mx-auto">
-            {personalData.description}
-          </p>
-        </div>
-      </div> */}
     </section>
   );
 };

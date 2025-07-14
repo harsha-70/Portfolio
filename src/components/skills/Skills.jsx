@@ -29,20 +29,21 @@ const Skills = () => {
         { icon: <SiMysql className='text-6xl' />, name: 'MySQL', color: 'text-blue-500' }
       ];
   return (
-    <section id="skills" className="max-w-9xl mx-auto px-4 lg:px-4 relative flex flex-col items-center justify-between py-4 lg:py-12 my-12 lg:my-16 relative">
-        <div className="w-full flex flex-wrap items-center justify-center my-8 mb-20 px-2">
+    <section id="skills" className="max-w-9xl mx-auto px-4 lg:px-4 relative flex flex-col items-center  py-4 lg:py-12 my-12 lg:my-8">
+
+    <div className="max-w-xl w-full flex flex-wrap items-center justify-center my-8 mb-20 px-2">
   {/* Left line */}
-  <div className="flex-grow h-[2px] bg-pink-600"></div>
+    <div className="flex-grow h-[2px] bg-pink-600"></div>
 
-  {/* Ribbon box */}
-  <div className="bg-gradient-to-r from-pink-500 to-violet-600 p-[2px] rounded-lg hover:from-violet-600 hover:to-pink-500 transition-all duration-300 ">
-    <div className="bg-[#0d1224] px-4 sm:px-6 py-1.5 sm:py-2 text-base sm:text-lg md:text-xl font-semibold text-white rounded-lg text-center whitespace-nowrap">
-      Skills
+    {/* Ribbon box */}
+    <div className="bg-gradient-to-r from-pink-500 to-violet-600 p-[2px] rounded-lg hover:from-violet-600 hover:to-pink-500 transition-all duration-300 ">
+      <div className="bg-[#0d1224] px-4 sm:px-6 py-1.5 sm:py-2 text-base sm:text-lg md:text-xl font-semibold text-white rounded-lg text-center whitespace-nowrap">
+        Skills
+      </div>
     </div>
-  </div>
 
-  {/* Right line */}
-  <div className="flex-grow h-[2px] bg-violet-600"></div>
+    {/* Right line */}
+    <div className="flex-grow h-[2px] bg-violet-600"></div>
 </div>
       <div className="w-full overflow-hidden my-4 py-4"> 
         <Marquee

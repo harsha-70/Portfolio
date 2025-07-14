@@ -24,7 +24,7 @@ const Navbar = () => {
       animate={{ y: 0 }}
       transition={{ duration: 0.5 }}
     >
-      <div className='max-w-6xl mx-auto px-4 flex justify-between items-center'>
+      <div className='max-w-7xl mx-auto px-4 flex justify-between items-center'>
         {/* logo */}
         <motion.div
             className='text-white text-3xl'
@@ -65,7 +65,7 @@ const Navbar = () => {
           initial={false}
           animate={isOpen ? { opacity: 1, y: 0 } : { opacity: 1, y: 0 }}
         >
-          {['hero', 'about','Eduction', 'projects', 'skills', 'contact'].map((section, index) => (
+          {['hero', 'about','education', 'projects', 'skills', 'contact'].map((section, index) => (
             <motion.div
               key={section}
               initial={{ opacity: 0, y: -20 }}

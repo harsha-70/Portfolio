@@ -10,17 +10,8 @@ import { FaInstagram} from "react-icons/fa6";
 import animation from '../../assets/Animation1.json';
 const Hero = () => {
   return (
-    <section id="hero" className='max-w-9xl mx-auto px-4 relative flex flex-col items-center justify-between py-4 lg:py-12'>
-        <img
-  src="/hero.svg"
-  alt="Hero"
-  width="1572"
-  height="795"
-  className="absolute -top-[98px] -z-10"
-/>
-
-
-       <div className="grid grid-cols-1 items-start lg:grid-cols-2 lg:gap-12 gap-y-8">
+    <section id="hero" className='max-w-7xl mx-auto px-4 relative flex flex-col items-center justify-between py-4 lg:py-8'>
+               <div className="grid grid-cols-1 items-start lg:grid-cols-2 lg:gap-12 gap-y-8">
         <div className="order-1 lg:order-1 flex flex-col items-start justify-center p-2 pb-20 md:pb-10 lg:pt-10">
             <h1 className="text-3xl font-bold leading-10 text-white md:font-extrabold lg:text-[2.6rem] lg:leading-[3.5rem]">
             Hello, <br />
@@ -81,15 +72,6 @@ I build full-stack web apps and strengthen logic with DSA.
                 <RiContactsFill size={16} />
               </button>
                </Link> 
-               {/* <a
-              href={personalData.resume}
-              target="_blank"
-              rel="noreferrer"
-              className="flex items-center gap-2 bg-gradient-to-r from-pink-500 to-violet-600 text-white text-sm md:text-base font-medium uppercase tracking-wide hover:from-violet-600 hover:to-pink-500 px-6 py-3 rounded-full hover:gap-4 transition-all duration-300"
-            >
-              Get Resume
-              <BsPersonVcardFill size={16} />
-            </a> */}
             </div>
         </div>
         <div className="order-1 lg:order-1 flex items-center justify-center">
