@@ -20,7 +20,7 @@ const Education = () => {
     <div className="flex-grow h-[2px] bg-violet-600"></div>
 </div>
     <div className="grid grid-cols-1 items-start lg:grid-cols-2 lg:gap-12 gap-y-8">
-      <div className="order-1 lg:order-2 flex flex-col items-center justify-center p-2 pb-20 md:pb-10 lg:pt-10">
+      <div className="order-2 lg:order-2 flex flex-col items-center justify-center p-2 pb-20 md:pb-10 lg:pt-10">
   {[
     {
       year: "2023 - 2026",

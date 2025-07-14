@@ -75,7 +75,7 @@ I build full-stack web apps and strengthen logic with DSA.
             </div>
         </div>
         <div className="order-1 lg:order-1 flex items-center justify-center">
-            <Lottie animationData={animation} loop={true} className="w-50 md:w-70" />
+            <Lottie animationData={animation} loop={true} className="w-[250px] sm:w-[300px] md:w-[400px] lg:w-[450]" />
         </div>
        </div>
     </section>
