@@ -68,7 +68,7 @@ const Skills = () => {
                 className='flex-shrink-0 flex flex-col items-center justify-center rounded-xl 
                 border border-white/20 p-6 w-32 h-32 mx-6 
                 bg-white/10 backdrop-blur-md shadow-lg 
-                transition-all hover:scale-110 hover:border-2 duration-200  hover:shadow-neutral-800/50'>
+                transition-all hover:scale-110 hover:border-2 duration-200  hover:shadow-white-800/50'>
                 
             
                 <div className={`${tech.color} mb-2`}>

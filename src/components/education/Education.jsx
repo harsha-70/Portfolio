@@ -5,7 +5,7 @@ const Education = () => {
   return (
     <section id="education" className='max-w-9xl mx-auto px-2 relative flex flex-col items-center justify-between py-4 sm:px-4 lg:py- my-8 lg:my-8'>
       
-    <div className="max-w-xl w-full flex flex-wrap items-center justify-center my-8 mb-20 px-2">
+    <div className="max-w-xl w-full flex flex-wrap items-center justify-center my-8 mb-10 px-2">
   {/* Left line */}
     <div className="flex-grow h-[2px] bg-pink-600"></div>
 
@@ -40,19 +40,16 @@ const Education = () => {
   ].map((item, idx) => (
     <div
       key={idx}
-      className="relative w-full sm:w-[400px] lg:w-[500px] xl:w-[550px] mx-auto p-[2px] rounded-xl bg-gradient-to-br from-pink-500 to-violet-500 shadow-xl my-4"
+      className="relative w-full sm:w-[500px] lg:w-[500px] xl:w-[550px] mx-auto p-[2px] rounded-xl bg-gradient-to-br from-pink-500 to-violet-500 hover:from-violet-600 hover:to-pink-500 transition-all duration-300 hover:shadow-pink-500/20 shadow-xl my-4 "
     >
-      <div>
-        <p className="text-sm text-white mb-1 text-center w-full">
-            {item.year}
-          </p>
-      </div>
-      <div className="flex flex-row bg-black/80 rounded-xl p-4 backdrop-blur-md h-full items-center gap-4">
+      <div className="flex flex-row bg-black/85 rounded-xl p-4 backdrop-blur-md h-full items-center gap-4">
         <div className="flex-shrink-0">
           <GraduationCap size={40} className="text-pink-400" />
         </div>
         <div className="flex flex-col">
-          
+          <p className="text-sm text-pink-500 mb-1  w-full">
+            {item.year}
+          </p>
           <h2 className="text-xl font-semibold text-white mb-1">{item.degree}</h2>
           <h2 className="text-lg text-gray-300 mb-1">{item.college}</h2>
         </div>
@@ -60,7 +57,7 @@ const Education = () => {
     </div>
   ))}
 </div>  
-      <div className="order-1 lg:order-1 flex items-center justify-center">
+      <div className="order-1  lg:order-1 flex items-center justify-center">
             <Lottie 
   animationData={animation} 
   loop={true} 
